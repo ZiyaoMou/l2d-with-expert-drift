@@ -24,6 +24,8 @@ l2d-with-expert-drift/
 ├── synthetic/       # Synthetic drift simulations
 └── README.md
 
+```
+
 ## Getting Started
 
 ### Installation
