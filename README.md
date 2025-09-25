@@ -7,7 +7,7 @@ This repository contains the official implementation of the paper **"Learning to
 
 We provide code and experiments on three real-world datasets:
 
-- [**CheXpert**](chexpert/README.md): medical imaging with radiologist drift  
+- [**CheXpert**](cheXpert/README.md): medical imaging with radiologist drift  
 - [**CIFAR-10**](cifar10/README.md): image classification with synthetic expert drift  
 - [**HateSpeech**](hatespeech/README.md): text classification with annotator drift  
 
@@ -23,6 +23,8 @@ l2d-with-expert-drift/
 ├── hatespeech/      # HateSpeech dataset experiments
 ├── synthetic/       # Synthetic drift simulations
 └── README.md
+```
+
 ```
 
 ## Getting Started
