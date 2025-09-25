@@ -2,14 +2,12 @@
 
 This folder contains the implementation of **Learning to Defer under Expert Drift** on the **CheXpert** dataset.
 
----
 
 ## Dataset
 
 We use the **CheXpert** dataset, a large-scale chest X-ray dataset for multi-label classification of 14 medical conditions.  
-For our experiments, we preprocess the data to simulate clinical decision-making scenarios under **expert drift**.
+For our experiments, we preprocess the data to simulate clinical decision-making scenarios under expert drift.
 
----
 
 ## Repository Structure
 
@@ -42,8 +40,6 @@ For our experiments, we preprocess the data to simulate clinical decision-making
 
 - **`utils/`**  
   Contains utility functions for data loading, metrics calculation, logging, and visualization.
-
----
 
 ## Installation
 

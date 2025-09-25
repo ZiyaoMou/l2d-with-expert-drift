@@ -11,7 +11,7 @@ We provide code and experiments on three real-world datasets:
 - [**CIFAR-10**](cifar10/README.md): image classification with synthetic expert drift  
 - [**HateSpeech**](hatespeech/README.md): text classification with annotator drift  
 
-We also include **synthetic data experiments** in [synthetic/](synthetic/), for controlled analysis and ablation studies.
+We also include synthetic data experiments in [synthetic/](synthetic/), for controlled analysis and ablation studies.
 
 
 ## Repository Structure
@@ -23,6 +23,7 @@ l2d-with-expert-drift/
 ├── hatespeech/      # HateSpeech dataset experiments
 ├── synthetic/       # Synthetic drift simulations
 └── README.md
+```
 
 ## Getting Started
 

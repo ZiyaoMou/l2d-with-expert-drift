@@ -2,15 +2,12 @@
 
 This folder contains the implementation of **Learning to Defer under Expert Drift** on the **HateSpeech** dataset.
 
----
-
 ## Dataset
 
 We use a **HateSpeech classification dataset**, which contains text samples labeled for hate/offensive speech detection.  
 This dataset is well-suited for studying deferral because **expert annotators may drift over time** (e.g., becoming stricter or more lenient).  
 We simulate such drift to evaluate our temporal L2D framework.
 
----
 
 ## Repository Structure
 
@@ -20,7 +17,6 @@ We simulate such drift to evaluate our temporal L2D framework.
   - `hatespeech_defer_lstm.py` – Temporal L2D with LSTM (our main method)  
   - `hatespeech_defer_perstep.py` – Per-step L2D baseline  
 
----
 
 ## Installation
 
