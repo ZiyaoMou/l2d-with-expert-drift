@@ -25,12 +25,12 @@ l2d-with-expert-drift/
 └── README.md
 ```
 
-```
-
 ## Getting Started
 
 ### Installation
 
 We recommend using **conda** to manage dependencies.  
 Create from our environment file:
+```
 conda env create -f environment.yml
+```
