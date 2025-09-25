@@ -1,9 +1,7 @@
 # l2d-with-expert-drift
 
-This repository contains the official implementation of the paper **"Learning to Defer under Expert Drift"**.  
-We study the problem of **expert drift**, where human experts (e.g., doctors, annotators, moderators) may change their performance over time. Our framework, **temporal L2D (Learn-to-Defer)**, enables machine learning models to dynamically decide when to predict and when to defer to human experts under such drift.
+This repository contains the official implementation of the paper **"Learning to Defer under Expert Drift"**. Our framework, L2D with expert drift, enables machine learning models to dynamically decide when to predict and when to defer to human experts under drift.
 
----
 
 ## Implemented Datasets
 
@@ -15,9 +13,9 @@ We provide code and experiments on three real-world datasets:
 
 We also include **synthetic data experiments** in [synthetic/](synthetic/), for controlled analysis and ablation studies.
 
----
 
 ## Repository Structure
+```text
 l2d-with-expert-drift/
 │
 ├── chexpert/        # CheXpert dataset experiments
